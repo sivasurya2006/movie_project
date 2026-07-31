@@ -19,7 +19,7 @@ def save_movies(movies):
 
 
 def show_menu():
-    print("\n===== MOVIE MANAGEMENT SYSTEM =====")
+    print(" MOVIE MANAGEMENT SYSTEM ")
     print("1. Add Movie")
     print("2. View Movies")
     print("3. Search Movie")
@@ -68,7 +68,7 @@ def view_movies(movies):
 
     print("\nMovie List:")
     for movie in movies:
-        print("-------------------------")
+        
         print("Title :", movie["title"])
         print("Genre :", movie["genre"])
         print("Year  :", movie["year"])
