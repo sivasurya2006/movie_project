@@ -1,0 +1,20 @@
+[
+    {
+        "title": "ayan",
+        "genre": "smuglling",
+        "year": 2017,
+        "rating": 9.5
+    },
+    {
+        "title": "leo",
+        "genre": "action",
+        "year": 2023,
+        "rating": 9.0
+    },
+    {
+        "title": "breaking Bad",
+        "genre": "smuggling",
+        "year": 2011,
+        "rating": 9.8
+    }
+]
