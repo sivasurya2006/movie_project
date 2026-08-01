@@ -42,36 +42,60 @@ Example:
     "year": 2022,
     "rating": 8.4
 }
-Technologies Used
-Python
-JSON
-Python Concepts Practiced
-File handling
-JSON data handling
-Lists
-Dictionaries
-Functions
-Loops
-Conditional statements
-Exception handling
-User input
-Sorting using lambda functions
-Project Structure
+
+## Technologies Used
+
+- Python
+- JSON
+
+## Python Concepts Practiced
+
+- File handling
+- JSON data handling
+- Lists
+- Dictionaries
+- Functions
+- Loops
+- Conditional statements
+- Exception handling
+- User input
+- Sorting using lambda functions
+
+## Project Structure
+
+```text
 movie_project/
 |
 +-- movie_management.py
 +-- movie.json
 +-- README.md
-Note: movie.json will be created automatically when movie data is saved.
+```
 
-How to Run
-Clone the repository:
+> Note: `movie.json` will be created automatically when movie data is saved.
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/sivasurya2006/movie_project.git
-Go to the project folder:
+```
+
+2. Go to the project folder:
+
+```bash
 cd movie_project
-Run the Python file:
+```
+
+3. Run the Python file:
+
+```bash
 python movie_management.py
-Menu Options
+```
+
+## Menu Options
+
+```text
 MOVIE MANAGEMENT SYSTEM
 
 1. Add Movie
@@ -84,7 +108,11 @@ MOVIE MANAGEMENT SYSTEM
 8. Total Movies
 9. View Movies by Genre
 10. Exit
-Example Output
+```
+
+## Example Output
+
+```text
 MOVIE MANAGEMENT SYSTEM
 1. Add Movie
 2. View Movies
@@ -103,15 +131,22 @@ Enter genre: Action
 Enter release year: 2022
 Enter rating: 8.4
 Movie added successfully!
-Future Improvements
-Display movies in a table format
-Add rating range validation
-Add release year validation
-Allow updating movie title, genre, and year
-Add search by rating or release year
-Improve menu design
-Add unit tests
-Author
-Siva Surya
-License
+```
+
+## Future Improvements
+
+- Display movies in a table format
+- Add rating range validation
+- Add release year validation
+- Allow updating movie title, genre, and year
+- Add search by rating or release year
+- Improve menu design
+- Add unit tests
+
+## Author
+
+**Siva Surya**
+
+## License
+
 This project is open-source and available for learning and practice purposes.
