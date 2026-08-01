@@ -6,7 +6,7 @@ A beginner-friendly Python command-line application for managing movie records u
 
 Movie Management System is a simple CRUD-based Python project that allows users to add, view, search, update, delete, sort, and filter movie records.
 
-The movie data is stored in a `movie.json` file, which means the records are saved even after the program is closed
+The movie data is stored in a `movie.json` file, which means the records are saved even after the program is closed.
 
 ## Features
 
@@ -42,6 +42,8 @@ Example:
     "year": 2022,
     "rating": 8.4
 }
+```
+
 ## Technologies Used
 
 - Python
@@ -70,7 +72,6 @@ movie_project/
 +-- README.md
 ```
 
-> Note: `movie.json` will be created automatically when movie data is saved.
 > Note: `movie.json` will be created automatically when movie data is saved.
 
 ## How to Run
