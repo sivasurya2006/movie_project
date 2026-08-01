@@ -1,116 +1,117 @@
 # Movie Management System
 
-A simple Python command-line project to manage movie records using JSON file storage.
+A beginner-friendly Python command-line application for managing movie records using JSON file storage.
 
-## Description
+## Overview
 
-Movie Management System is a beginner-friendly Python project that allows users to add, view, search, update, delete, sort, and filter movie details. The project stores movie data in a `movie.json` file, so records can be saved and reused after the program runs.
+Movie Management System is a simple CRUD-based Python project that allows users to add, view, search, update, delete, sort, and filter movie records.
+
+The movie data is stored in a `movie.json` file, which means the records are saved even after the program is closed.
 
 ## Features
 
-- Add new movies
-- View all movies
-- Search movie by title
-- Update movie rating
+- Add new movie records
+- View all saved movies
+- Search movies by title
+- Update movie ratings
 - Delete movie records
 - Sort movies by rating
 - Sort movies by release year
-- Count total movies
+- Count total number of movies
 - View movies by genre
 - Prevent duplicate movie entries
-- Store data using JSON
+- Case-insensitive movie search
+- Basic input validation
+- JSON-based data storage
 
-## Movie Details Stored
+## Movie Data Format
 
 Each movie record contains:
 
-- Movie title
+- Title
 - Genre
 - Release year
 - Rating
 
-## Technologies Used
+Example:
 
-- Python
-- JSON
-
-## Concepts Used
-
-- File handling
-- JSON data storage
-- Lists and dictionaries
-- Loops
-- Conditional statements
-- User input
-- Sorting with lambda function
-
-## How to Run
-
-1. Make sure Python is installed on your system.
-2. Open Command Prompt or VS Code terminal.
-3. Go to the project folder:
-
-```bash
-cd C:\Users\FLMXDOC\OneDrive\Desktop\movie_project
-```
-
-4. Run the Python file:
-
-```bash
-python movie_management.py
-```
-
-## Menu Options
-
-```text
-1. ADD_MOVIE
-2. VIEW_MOVIE
-3. SEARCH_MOVIES
-4. UPDATE_RATING
-5. DELETE_MOVIES
-6. SORTED_MOVIES
-7. SORTED_YEAR
-8. TOTAL_MOVIES
-9. VIEW_MOVIES_BY_GENRE
-10. PREVENT_DUPLICATE_MOVIE
-```
-
-## File Structure
-
-```text
+```json
+{
+    "title": "Vikram",
+    "genre": "Action",
+    "year": 2022,
+    "rating": 8.4
+}
+Technologies Used
+Python
+JSON
+Python Concepts Practiced
+File handling
+JSON data handling
+Lists
+Dictionaries
+Functions
+Loops
+Conditional statements
+Exception handling
+User input
+Sorting using lambda functions
+Project Structure
 movie_project/
 |
 +-- movie_management.py
 +-- movie.json
 +-- README.md
-```
+Note: movie.json will be created automatically when movie data is saved.
 
-## Example Movie Data
+How to Run
+Clone the repository:
+git clone https://github.com/sivasurya2006/movie_project.git
+Go to the project folder:
+cd movie_project
+Run the Python file:
+python movie_management.py
+Menu Options
+MOVIE MANAGEMENT SYSTEM
 
-```json
-[
-    {
-        "title": "Vikram",
-        "genre": "Action",
-        "year": 2022,
-        "rating": 8.4
-    }
-]
-```
+1. Add Movie
+2. View Movies
+3. Search Movie
+4. Update Rating
+5. Delete Movie
+6. Sort Movies by Rating
+7. Sort Movies by Release Year
+8. Total Movies
+9. View Movies by Genre
+10. Exit
+Example Output
+MOVIE MANAGEMENT SYSTEM
+1. Add Movie
+2. View Movies
+3. Search Movie
+4. Update Rating
+5. Delete Movie
+6. Sort Movies by Rating
+7. Sort Movies by Release Year
+8. Total Movies
+9. View Movies by Genre
+10. Exit
 
-## Future Improvements
-
-- Improve input validation
-- Add case-insensitive movie search
-- Display movies in table format
-- Add separate functions for each feature
-- Add exit option
-- Improve error handling
-
-## Author
-
+Enter your choice: 1
+Enter movie name: Vikram
+Enter genre: Action
+Enter release year: 2022
+Enter rating: 8.4
+Movie added successfully!
+Future Improvements
+Display movies in a table format
+Add rating range validation
+Add release year validation
+Allow updating movie title, genre, and year
+Add search by rating or release year
+Improve menu design
+Add unit tests
+Author
 Siva Surya
-
-## Note
-
-This is a beginner-level Python mini project created for practicing file handling, JSON storage, and CRUD operations.
+License
+This project is open-source and available for learning and practice purposes.
