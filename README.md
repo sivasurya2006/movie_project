@@ -42,7 +42,6 @@ Example:
     "year": 2022,
     "rating": 8.4
 }
-
 ## Technologies Used
 
 - Python
@@ -71,6 +70,7 @@ movie_project/
 +-- README.md
 ```
 
+> Note: `movie.json` will be created automatically when movie data is saved.
 > Note: `movie.json` will be created automatically when movie data is saved.
 
 ## How to Run
